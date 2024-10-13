@@ -1,0 +1,56 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: bisque;
+}
+.💪{
+    background-color: white;
+    padding: 5%;
+    text-align: center;
+    width: min-content;
+    margin: auto;
+    border-radius: 5%;
+    box-shadow: 1em 1em 1em red;
+}
+form{
+    background-color: hsl(96, 100%, 97%);
+    border-radius: 5%;
+}
+h1{
+    color: hsl(160, 61%, 65%);
+}
+#temp{
+    font-size: 2em;
+    text-align: center;
+    color:hsla(180, 100%, 50%, 0.885);
+    margin-bottom: 15px;
+}
+label{
+    font-size: larger;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+#labelFahrenheit{
+    color: hsl(31, 100%, 50%);
+}
+#labelCelcius{
+    color: hsl(300, 76%, 53%);
+}
+button{
+    margin-top: .5em;
+    margin-bottom: .5em;
+    font-size: 1.5em;
+    color: rgb(205, 201, 201);
+    background-image: linear-gradient(to bottom right, red, orange, yellow, green, blue, indigo, violet);
+    cursor: pointer;
+}
+button:hover{
+    background-image: linear-gradient(to top left, red, orange, yellow, green, blue, indigo, violet);
+}
+#🎁{
+    width: 70%;
+    object-fit: cover;
+}
+#result{
+    font-size: 1.6em;
+    font-weight: bold;
+}
